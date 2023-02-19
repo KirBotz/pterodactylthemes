@@ -13,7 +13,7 @@ instalartema(){
     echo -e "${CYAN}Themen installieren..."
     cd /var/www/pterodactyl
     rm -r pterodactylthemes
-    git clone https://github.com/CatValentine-Dev/pterodactylthemes.git
+    git clone https://github.com/KirBotz/pterodactylthemes.git
     cd pterodactylthemes
     rm /var/www/pterodactyl/resources/scripts/pterodactylthemes.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -47,11 +47,11 @@ instaladordetemas(){
 }
 
 reparar(){
-    bash <(curl https://raw.githubusercontent.com/CatValentine-Dev/pterodactylthemes/main/reparar.sh)
+    bash <(curl https://raw.githubusercontent.com/KirBotz/pterodactylthemes/main/reparar.sh)
 }
 
 voltar(){
- bash <(curl https://raw.githubusercontent.com/CatValentine-Dev/pterodactylthemes/main/menu.sh)
+ bash <(curl https://raw.githubusercontent.com/KirBotz/pterodactylthemes/main/menu.sh)
 }
  
 restaurarbackup(){
